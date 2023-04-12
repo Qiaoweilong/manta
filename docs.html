@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://docs.manta.network/docs/Introduction -->
+<html lang="en" dir="ltr"
+    class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-Introduction"
+    data-theme="light" data-rh="lang,dir,class">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="generator" content="Docusaurus v2.3.1">
+    <title>What is Manta? | Manta Network Technical Resources</title>
+    <meta data-rh="true" name="twitter:card" content="summary_large_image">
+    <meta data-rh="true" property="og:url" content="https://docs.manta.network/docs/Introduction">
+    <meta data-rh="true" name="docusaurus_locale" content="en">
+    <meta data-rh="true" name="docsearch:language" content="en">
+    <meta data-rh="true" name="docusaurus_version" content="current">
+    <meta data-rh="true" name="docusaurus_tag" content="docs-default-current">
+    <meta data-rh="true" name="docsearch:version" content="current">
+    <meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current">
+    <meta data-rh="true" property="og:title" content="What is Manta? | Manta Network Technical Resources">
+    <meta data-rh="true" name="description"
+        content="Manta Network is the zk layer 1 blockchain with the fastest prover speed and most decentralized trusted setup that brings programmable privacy to web3. Its suite of core products and technologies, including zkNFTs and MantaPay, offers user-friendly access to powerful ZK-enabled use cases.">
+    <meta data-rh="true" property="og:description"
+        content="Manta Network is the zk layer 1 blockchain with the fastest prover speed and most decentralized trusted setup that brings programmable privacy to web3. Its suite of core products and technologies, including zkNFTs and MantaPay, offers user-friendly access to powerful ZK-enabled use cases.">
+    <link data-rh="true" rel="icon" href="https://docs.manta.network/img/favicon.ico">
+    <link data-rh="true" rel="canonical" href="https://docs.manta.network/docs/Introduction">
+    <link data-rh="true" rel="alternate" href="https://docs.manta.network/docs/Introduction" hreflang="en">
+    <link data-rh="true" rel="alternate" href="https://docs.manta.network/cn/docs/Introduction" hreflang="cn">
+    <link data-rh="true" rel="alternate" href="https://docs.manta.network/docs/Introduction" hreflang="x-default">
+    <link rel="preconnect" href="https://www.google-analytics.com/">
+    <link rel="preconnect" href="https://www.googletagmanager.com/">
+    <script async="" src="./docs_files/js"></script>
+    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-J7YDH8B96W", {})</script>
+
+
+
+
+    <link rel="stylesheet" href="./docs_files/katex.min.css"
+        integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./docs_files/styles.584a087c.css">
+    <link rel="preload" href="./docs_files/runtime~main.872f9939.js" as="script">
+    <link rel="preload" href="./docs_files/main.c18bdaf8.js" as="script">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" data-rh="true">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/c98a6df0.c0c61487.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/627df73b.3b5246c0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/cebf13eb.aed451c3.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/e0a19902.beef1a61.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/c4f5d8e4.26023247.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/4ac5ac58.411f547a.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/4280bfea.fe1859e5.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/b80e148a.78749bae.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/90ce4d8a.38e72412.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/c544f7f1.19f99db4.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/f6e7cad1.e8f6d1e2.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/1be78505.9d31cab0.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/756e2adf.da525d2b.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/935f2afb.30e31f2c.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/17896441.7ba2d47f.js">
+    <link rel="prefetch" href="https://docs.manta.network/assets/js/ffe03db8.85ecb72c.js">
+</head>
+
+<body class="" data-theme="light" data-rh="class,data-theme" style="overflow: visible;">
+    <script>!function () { function e(e) { document.documentElement.setAttribute("data-theme", e) } var t = function () { var e = null; try { e = localStorage.getItem("theme") } catch (e) { } return e }(); null !== t ? e(t) : window.matchMedia("(prefers-color-scheme: dark)").matches ? e("dark") : (window.matchMedia("(prefers-color-scheme: light)").matches, e("light")) }()</script>
+    <div id="__docusaurus">
+        <div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn"
+                href="https://docs.manta.network/docs/Introduction#docusaurus_skipToContent_fallback">Skip to main
+                content</a></div>
+        <nav aria-label="Main" class="navbar navbar--fixed-top">
+            <div class="navbar__inner">
+                <div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false"
+                        class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30"
+                            aria-hidden="true">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                                d="M4 7h22M4 15h22M4 23h22"></path>
+                        </svg></button><a class="navbar__brand" href="./index.html">
+                        <div class="navbar__logo"><img src="./docs_files/manta2.png"
+                                class="themedImage_ToTc themedImage--light_HNdA"></div><b
+                            class="navbar__title text--truncate font_cklT">Manta Network Docs</b>
+                    </a></div>
+                <div class="navbar__items navbar__items--right"><a href="https://manta.network/" target="_blank"
+                        rel="noopener noreferrer" class="navbar__item navbar__link navLinkFont_BozD">Manta Network</a><a
+                        href="http://calamari.network/" target="_blank" rel="noopener noreferrer"
+                        class="navbar__item navbar__link navLinkFont_BozD">Calamari Network</a><a
+                        href="https://github.com/Manta-Network" target="_blank" rel="noopener noreferrer"
+                        class="navbar__item navbar__link navLinkFont_BozD">GitHub</a>
+                    <div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a
+                            href="https://docs.manta.network/docs/Introduction#" aria-haspopup="true"
+                            aria-expanded="false" role="button" class="navbar__link navLinkFont_BozD">English</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="https://docs.manta.network/docs/Introduction" target="_self"
+                                    rel="noopener noreferrer"
+                                    class="dropdown__link dropdown__link--active navLinkFont_BozD" lang="en">English</a>
+                            </li>
+                            <li><a href="https://docs.manta.network/cn/docs/Introduction" target="_self"
+                                    rel="noopener noreferrer" class="dropdown__link navLinkFont_BozD" lang="cn">中文</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="toggle_MW0i colorModeToggle_x44X"><button class="clean-btn toggleButton_yw5v"
+                            type="button" title="Switch between dark and light mode (currently light mode)"
+                            aria-label="Switch between dark and light mode (currently light mode)"
+                            aria-live="polite"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="lightToggleIcon_SFTY">
+                                <path
+                                    d="M23.9981 15.2171L20.4 12.0248C20.4038 12.0057 20.4076 11.9867 20.4114 11.9676L24 8.78857L19.2705 7.81905L19.2571 7.79619L20.781 3.21524L16.2057 4.74286L16.1829 4.72762L15.2114 0L12.0019 3.62476H11.9981L8.78286 0.00190476L7.81524 4.74095C7.81143 4.74286 7.80762 4.74476 7.80381 4.74667L3.21905 3.21524L4.74286 7.79619C4.73524 7.80381 4.72952 7.81333 4.72191 7.82095L0.00190476 8.78286L3.62095 11.9962L3.61905 12.0057L0 15.2114L4.74095 16.1848L4.74476 16.1924L3.21714 20.7848L7.7981 19.2552L7.81714 19.2705L8.78857 24L11.9962 20.379H12.0057L15.219 23.9981L16.1848 19.2629L16.1981 19.2552L20.7867 20.7829L19.259 16.2057L19.2724 16.1829L23.9981 15.2171Z"
+                                    fill="#FFB300"></path>
+                                <path
+                                    d="M23.9981 15.2171L20.4 12.0248C20.4038 12.0057 20.4076 11.9867 20.4114 11.9676L24 8.78857L19.2705 7.81905L19.2571 7.79619L20.781 3.21524L16.2057 4.74286L16.1829 4.72762L15.2114 0L12.0019 3.62476H11.9981L8.78286 0.00190476L7.81524 4.74095C7.81143 4.74286 7.80762 4.74476 7.80381 4.74667L3.21905 3.21524L4.74286 7.79619C4.73524 7.80381 4.72952 7.81333 4.72191 7.82095L0.00190476 8.78286L3.62095 11.9962L3.61905 12.0057L0 15.2114L4.74095 16.1848L4.74476 16.1924L3.21714 20.7848L7.7981 19.2552L7.81714 19.2705L8.78857 24L11.9962 20.379H12.0057L15.219 23.9981L16.1848 19.2629L16.1981 19.2552L20.7867 20.7829L19.259 16.2057L19.2724 16.1829L23.9981 15.2171Z"
+                                    fill="url(#paint0_radial_213_52)"></path>
+                                <path
+                                    d="M12 20.0877C16.4666 20.0877 20.0876 16.4667 20.0876 12C20.0876 7.53336 16.4666 3.91241 12 3.91241C7.5333 3.91241 3.91235 7.53336 3.91235 12C3.91235 16.4667 7.5333 20.0877 12 20.0877Z"
+                                    fill="#FFB300"></path>
+                                <path
+                                    d="M12 20.0877C16.4666 20.0877 20.0876 16.4667 20.0876 12C20.0876 7.53336 16.4666 3.91241 12 3.91241C7.5333 3.91241 3.91235 7.53336 3.91235 12C3.91235 16.4667 7.5333 20.0877 12 20.0877Z"
+                                    fill="url(#paint1_radial_213_52)"></path>
+                                <path
+                                    d="M8.72382 11.3257C9.2761 11.3257 9.72382 10.7995 9.72382 10.1504C9.72382 9.50136 9.2761 8.97519 8.72382 8.97519C8.17153 8.97519 7.72382 9.50136 7.72382 10.1504C7.72382 10.7995 8.17153 11.3257 8.72382 11.3257Z"
+                                    fill="#5D4037"></path>
+                                <path
+                                    d="M15.2762 11.3256C15.8285 11.3256 16.2762 10.7995 16.2762 10.1504C16.2762 9.50133 15.8285 8.97516 15.2762 8.97516C14.7239 8.97516 14.2762 9.50133 14.2762 10.1504C14.2762 10.7995 14.7239 11.3256 15.2762 11.3256Z"
+                                    fill="#5D4037"></path>
+                                <path
+                                    d="M14.2495 14.2229C13.9257 14.4343 13.2381 14.9314 11.9981 14.9314C10.7581 14.9314 10.0171 14.4476 9.71425 14.1981C9.5752 14.0819 9.39806 13.9886 9.26853 14.0857C9.13901 14.1829 9.11425 14.381 9.20568 14.5219C9.55615 15.0648 10.4838 15.88 11.9962 15.9067C13.5085 15.88 14.4362 15.0648 14.7866 14.5219C14.8628 14.4038 14.8704 14.2343 14.7809 14.1429C14.6647 14.021 14.4476 14.0933 14.2495 14.2229Z"
+                                    fill="#5D4037"></path>
+                                <path
+                                    d="M11.0267 13.0515C10.7619 12.781 11.0057 12.6381 11.2972 12.72C11.6648 12.8229 12.2515 12.7734 12.4038 12.4724C12.6934 11.8934 12.3315 11.5658 11.8819 10.5639C11.4134 9.51623 12.0019 8.37528 12.6819 8.31623C13.2267 8.27052 13.0457 8.52957 12.8743 8.64004C12.541 8.85719 12.1886 9.57909 12.7276 10.3867C13.6457 11.76 13.6457 12.4096 13.1715 13.0648C12.8648 13.4877 11.7715 13.8153 11.0267 13.0515Z"
+                                    fill="#DE7321"></path>
+                                <path opacity="0.65"
+                                    d="M9.40572 13.5029C9.09525 14.2515 8.06287 14.5353 7.09715 14.1372C6.13334 13.7391 5.60191 12.8077 5.91239 12.0591C6.22287 11.3105 7.25525 11.0267 8.22096 11.4248C9.18477 11.8229 9.7162 12.7543 9.40572 13.5029Z"
+                                    fill="url(#paint2_radial_213_52)"></path>
+                                <path opacity="0.65"
+                                    d="M14.5943 13.5029C14.9048 14.2515 15.9372 14.5353 16.9029 14.1372C17.8667 13.7391 18.3981 12.8077 18.0876 12.0591C17.7772 11.3105 16.7448 11.0267 15.7791 11.4248C14.8153 11.8229 14.2838 12.7543 14.5943 13.5029Z"
+                                    fill="url(#paint3_radial_213_52)"></path>
+                                <defs>
+                                    <radialgradient id="paint0_radial_213_52" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(12 12) scale(14.3772)">
+                                        <stop offset="0.5558" stop-color="#FFB604"></stop>
+                                        <stop offset="0.6908" stop-color="#FEC61B"></stop>
+                                        <stop offset="0.8224" stop-color="#FDD835"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint1_radial_213_52" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(12.409 19.0326) scale(12.68 13.7907)">
+                                        <stop offset="0.6937" stop-color="#FFB604"></stop>
+                                        <stop offset="0.8488" stop-color="#FEC61B"></stop>
+                                        <stop offset="1" stop-color="#FDD835"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint2_radial_213_52" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(7.97733 11.6577) rotate(-156.799) scale(2.39596 2.36357)">
+                                        <stop stop-color="#EF6C00"></stop>
+                                        <stop offset="1" stop-color="#EF6C00" stop-opacity="0"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint3_radial_213_52" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(16.0209 11.67) rotate(-23.2014) scale(2.39595 2.36357)">
+                                        <stop stop-color="#EF6C00"></stop>
+                                        <stop offset="1" stop-color="#EF6C00" stop-opacity="0"></stop>
+                                    </radialgradient>
+                                </defs>
+                            </svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="darkToggleIcon_ekgs">
+                                <path
+                                    d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
+                                    fill="url(#paint0_radial_213_36)"></path>
+                                <path
+                                    d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
+                                    fill="url(#paint1_radial_213_36)"></path>
+                                <path
+                                    d="M16.2981 11.162C16.6041 11.412 17.1341 11.44 17.5821 11.25C18.1141 11.022 18.3561 10.67 18.3641 10.12C18.3721 9.43796 17.8041 8.70996 16.6801 8.63796C14.8281 8.51996 14.1161 10.18 14.0961 10.242C14.0521 10.372 14.1161 10.558 14.4861 10.266C15.6121 9.37596 16.0161 9.52396 16.0161 9.52396C16.0161 9.52396 15.3681 10.398 16.2981 11.162Z"
+                                    fill="#212121"></path>
+                                <path
+                                    d="M7.85206 11.162C8.15806 11.412 8.68806 11.44 9.13606 11.25C9.66806 11.022 9.91006 10.67 9.91806 10.12C9.92606 9.43796 9.35806 8.70996 8.23406 8.63796C6.38206 8.51996 5.67006 10.18 5.65006 10.242C5.60606 10.372 5.67006 10.558 6.04006 10.266C7.16606 9.37596 7.57006 9.52396 7.57006 9.52396C7.57006 9.52396 6.92206 10.398 7.85206 11.162Z"
+                                    fill="#212121"></path>
+                                <path
+                                    d="M15.208 14.788L15.184 14.774C15.064 14.702 14.906 14.716 14.8 14.806C14.486 15.074 13.184 15.57 11.998 15.594C10.812 15.57 9.51003 15.074 9.19603 14.806C9.09003 14.716 8.93403 14.7 8.81203 14.774L8.78803 14.788C8.63603 14.88 8.60803 15.068 8.71403 15.204C9.12603 15.72 10.218 16.496 11.996 16.522C13.774 16.498 14.864 15.72 15.278 15.204C15.39 15.068 15.36 14.88 15.208 14.788Z"
+                                    fill="#212121"></path>
+                                <path
+                                    d="M11.56 17.848C11.416 17.89 11.246 17.998 11.282 18.144C11.294 18.192 11.326 18.23 11.362 18.264C11.476 18.368 11.624 18.428 11.772 18.466C12.19 18.572 12.644 18.5 13.022 18.296C13.24 18.178 13.936 17.658 13.782 17.33C13.658 17.064 13.18 17.434 12.994 17.512C12.532 17.706 12.04 17.71 11.56 17.848Z"
+                                    fill="#274C5E"></path>
+                                <path
+                                    d="M10.936 13.652C10.648 13.328 10.914 13.16 11.23 13.256C11.63 13.378 12.27 13.32 12.434 12.96C12.75 12.268 12.356 11.878 11.866 10.682C11.354 9.43198 11.996 8.06998 12.736 7.99998C13.33 7.94398 13.132 8.25398 12.946 8.38598C12.582 8.64598 12.2 9.50598 12.786 10.47C13.784 12.108 13.866 12.894 13.27 13.666C12.9 14.146 11.746 14.564 10.936 13.652Z"
+                                    fill="#274C5E"></path>
+                                <path opacity="0.3"
+                                    d="M15.714 13.784C16.024 14.534 17.24 14.742 18.43 14.248C19.62 13.756 20.334 12.748 20.024 12C19.714 11.25 18.498 11.042 17.308 11.536C16.118 12.028 15.404 13.034 15.714 13.784Z"
+                                    fill="url(#paint2_radial_213_36)"></path>
+                                <path opacity="0.3"
+                                    d="M9.08603 13.784C8.77603 14.534 7.56003 14.742 6.37003 14.248C5.18003 13.756 4.46603 12.748 4.77603 12C5.08603 11.25 6.30203 11.042 7.49203 11.536C8.68203 12.028 9.39603 13.034 9.08603 13.784Z"
+                                    fill="url(#paint3_radial_213_36)"></path>
+                                <defs>
+                                    <radialgradient id="paint0_radial_213_36" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(11.9099 10.4148) scale(13.7343)">
+                                        <stop offset="0.3064" stop-color="#6092AB"></stop>
+                                        <stop offset="0.4717" stop-color="#5989A1"></stop>
+                                        <stop offset="0.7485" stop-color="#457287"></stop>
+                                        <stop offset="0.8428" stop-color="#3D687D"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint1_radial_213_36" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(11.9405 9.23102) scale(17.1209)">
+                                        <stop offset="0.762" stop-color="#B2EBF2" stop-opacity="0"></stop>
+                                        <stop offset="1" stop-color="#E0F7FA"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint2_radial_213_36" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(17.5786 11.7678) rotate(-23.0654) scale(3.27411 2.6168)">
+                                        <stop stop-color="white"></stop>
+                                        <stop offset="1" stop-color="#FFF9B9" stop-opacity="0"></stop>
+                                    </radialgradient>
+                                    <radialgradient id="paint3_radial_213_36" cx="0" cy="0" r="1"
+                                        gradientUnits="userSpaceOnUse"
+                                        gradientTransform="translate(7.31162 11.8372) rotate(-156.935) scale(3.22711 2.57924)">
+                                        <stop stop-color="white"></stop>
+                                        <stop offset="1" stop-color="#FFF9B9" stop-opacity="0"></stop>
+                                    </radialgradient>
+                                </defs>
+                            </svg></button></div>
+                    <div class="searchBox_H2mL">
+                        <div class="dsla-search-wrapper">
+                            <div class="dsla-search-field" data-tags="default,docs-default-current">
+                                <div class="aa-Autocomplete" role="combobox" aria-expanded="false"
+                                    aria-haspopup="listbox" aria-labelledby="autocomplete-0-label"><button type="button"
+                                        class="aa-DetachedSearchButton">
+                                        <div class="aa-DetachedSearchButtonIcon"><svg class="aa-SubmitIcon"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                                <path
+                                                    d="M16.041 15.856c-0.034 0.026-0.067 0.055-0.099 0.087s-0.060 0.064-0.087 0.099c-1.258 1.213-2.969 1.958-4.855 1.958-1.933 0-3.682-0.782-4.95-2.050s-2.050-3.017-2.050-4.95 0.782-3.682 2.050-4.95 3.017-2.050 4.95-2.050 3.682 0.782 4.95 2.050 2.050 3.017 2.050 4.95c0 1.886-0.745 3.597-1.959 4.856zM21.707 20.293l-3.675-3.675c1.231-1.54 1.968-3.493 1.968-5.618 0-2.485-1.008-4.736-2.636-6.364s-3.879-2.636-6.364-2.636-4.736 1.008-6.364 2.636-2.636 3.879-2.636 6.364 1.008 4.736 2.636 6.364 3.879 2.636 6.364 2.636c2.125 0 4.078-0.737 5.618-1.968l3.675 3.675c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z">
+                                                </path>
+                                            </svg></div>
+                                        <div class="aa-DetachedSearchButtonPlaceholder">Search...</div>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="presentation" class="navbar-sidebar__backdrop"></div>
+        </nav>
+        <div id="docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button
+                aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU"
+                type="button"></button>
+            <div class="docPage__5DB">
+                <aside class="theme-doc-sidebar-container docSidebarContainer_rpaz">
+                    <div class="sidebarViewport_YVHi">
+                        <div class="sidebar_mhZE">
+                            <nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_Y1UP">
+                                <ul class="theme-doc-sidebar-menu menu__list">
+                                    <li
+                                        class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item">
+                                        <div class="gap_bPW8"></div>
+                                        <div class="menu__list-item-collapsible"><a
+                                                class="menu__link menu__link--active fontSemiBold_gnKw">Manta
+                                                Network</a></div>
+                                        <ul style="display:block;overflow:visible;height:auto" class="menu__list">
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link menuLinkActive_f22p" aria-current="page"
+                                                    tabindex="0"
+                                                    href="https://docs.manta.network/docs/Introduction">What is
+                                                    Manta?</a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">Core Concepts</a></div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">Research</a></div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/manta/Token">Manta Token
+                                                    (MANTA)</a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/manta/Ecosystem">Ecosystem</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li
+                                        class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item">
+                                        <div class="gap_bPW8"></div>
+                                        <div class="menu__list-item-collapsible"><a
+                                                class="menu__link fontSemiBold_gnKw">Calamari Network</a></div>
+                                        <ul style="display:block;overflow:visible;height:auto" class="menu__list">
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/calamari/Overview">What is
+                                                    Calamari?</a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">🐙 Calamari Token (KMA)</a>
+                                                </div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/calamari/Governance">🎙
+                                                    Governance Overview</a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/calamari/Partnership">Partnerships</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li
+                                        class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item">
+                                        <div class="gap_bPW8"></div>
+                                        <div class="menu__list-item-collapsible"><a
+                                                class="menu__link fontSemiBold_gnKw">Product Guides</a></div>
+                                        <ul style="display:block;overflow:visible;height:auto" class="menu__list">
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/guides/MantaPay">MantaPay</a>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/guides/Bridge">Bridge</a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">Staking</a></div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/guides/MantaSigner">Manta
+                                                    Signer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li
+                                        class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item">
+                                        <div class="gap_bPW8"></div>
+                                        <div class="menu__list-item-collapsible"><a
+                                                class="menu__link fontSemiBold_gnKw">Developers</a></div>
+                                        <ul style="display:block;overflow:visible;height:auto" class="menu__list">
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">Develop on Calamari</a></div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed">
+                                                <div class="menu__list-item-collapsible"><a
+                                                        href="https://docs.manta.network/docs/Introduction#"
+                                                        class="menu__link menu__link--sublist menu__link--sublist-caret"
+                                                        aria-expanded="false" tabindex="0">Develop on Dolphin</a></div>
+                                            </li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a class="menu__link" tabindex="0"
+                                                    href="https://docs.manta.network/docs/Codebase">View the
+                                                    Codebase</a></li>
+                                        </ul>
+                                    </li>
+                                    <li
+                                        class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item">
+                                        <div class="gap_bPW8"></div>
+                                        <div class="menu__list-item-collapsible"><a
+                                                class="menu__link fontSemiBold_gnKw">Previous Events</a></div>
+                                        <ul style="display:block;overflow:visible;height:auto" class="menu__list">
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a href="https://squadgame.manta.network/" target="_blank"
+                                                    rel="noopener noreferrer" class="menu__link menuExternalLink_NnFM"
+                                                    tabindex="0">Squad Game<svg width="13.5" height="13.5"
+                                                        aria-hidden="true" viewBox="0 0 24 24"
+                                                        class="iconExternalLink_nPIU">
+                                                        <path fill="currentColor"
+                                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                                        </path>
+                                                    </svg></a></li>
+                                            <li
+                                                class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item">
+                                                <a href="https://crowdloanstrategy.manta.network/" target="_blank"
+                                                    rel="noopener noreferrer" class="menu__link menuExternalLink_NnFM"
+                                                    tabindex="0">Manta Network Crowdload<svg width="13.5" height="13.5"
+                                                        aria-hidden="true" viewBox="0 0 24 24"
+                                                        class="iconExternalLink_nPIU">
+                                                        <path fill="currentColor"
+                                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                                        </path>
+                                                    </svg></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </aside>
+                <main class="docMainContainer_RiV8">
+                    <div class="container padding-top--md padding-bottom--lg">
+                        <div class="row">
+                            <div class="col docItemCol_z5aJ">
+                                <div class="docItemContainer_c0TR">
+                                    <article>
+                                        <div style="display:flex;justify-content:space-between">
+                                            <nav class="theme-doc-breadcrumbs breadcrumbsContainer_Alpn"
+                                                aria-label="Breadcrumbs">
+                                                <ul class="breadcrumbs" itemscope=""
+                                                    itemtype="https://schema.org/BreadcrumbList">
+                                                    <li class="breadcrumbs__item"><a aria-label="Home page"
+                                                            class="breadcrumbs__link"
+                                                            href="./index.html"><svg viewBox="0 0 24 24"
+                                                                class="breadcrumbHomeIcon_xK9p">
+                                                                <path
+                                                                    d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z"
+                                                                    fill="currentColor"></path>
+                                                            </svg></a></li>
+                                                    <li class="breadcrumbs__item"><span class="breadcrumbs__link">Manta
+                                                            Network</span>
+                                                        <meta itemprop="position" content="1">
+                                                    </li>
+                                                    <li itemscope="" itemprop="itemListElement"
+                                                        itemtype="https://schema.org/ListItem"
+                                                        class="breadcrumbs__item"><span class="breadcrumbs__link"
+                                                            itemprop="name">What is Manta?</span>
+                                                        <meta itemprop="position" content="2">
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <div class="content_nnEp">
+                                                <div class="innerContent_DO_S topContainer_Zrcr">
+                                                    <div class="font_eWG0" style="color: rgba(0, 0, 0, 0.6);">Helpful
+                                                    </div><svg width="16" height="16" viewBox="0 0 16 16"
+                                                        xmlns="http://www.w3.org/2000/svg" class="good_sVf5"
+                                                        style="border-radius: 16px;">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM6.2056 8.88C6.06695 8.7194 5.87017 8.6204 5.65855 8.60493C5.44693 8.5894 5.23781 8.65853 5.0772 8.7972C4.91659 8.93587 4.81763 9.13267 4.8021 9.34427C4.78657 9.55587 4.85575 9.765 4.9944 9.9256C5.6424 10.6752 6.6264 11.2 8 11.2C9.3728 11.2 10.3576 10.6752 11.0056 9.9256C11.1443 9.765 11.2134 9.55587 11.1979 9.34427C11.1824 9.13267 11.0834 8.93587 10.9228 8.7972C10.7622 8.65853 10.5531 8.5894 10.3415 8.60493C10.1299 8.6204 9.93307 8.7194 9.7944 8.88C9.4592 9.268 8.9216 9.6 8 9.6C7.0784 9.6 6.5408 9.268 6.2056 8.88ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                            fill="rgba(0,0,0,0.6)"></path>
+                                                    </svg><svg width="16" height="16" viewBox="0 0 16 16"
+                                                        xmlns="http://www.w3.org/2000/svg" class="normal_u3mR"
+                                                        style="border-radius: 16px;">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                            fill="rgba(0,0,0,0.6)"></path>
+                                                        <path
+                                                            d="M9.89457 9.60675H6.10544C5.66547 9.60675 5.30881 9.96342 5.30881 10.4034C5.30881 10.8434 5.66547 11.2 6.10544 11.2H9.89457C10.3345 11.2 10.6912 10.8434 10.6912 10.4034C10.6912 9.96342 10.3345 9.60675 9.89457 9.60675Z"
+                                                            fill="rgba(0,0,0,0.6)"></path>
+                                                    </svg><svg width="16" height="16" viewBox="0 0 16 16"
+                                                        xmlns="http://www.w3.org/2000/svg" class="bad_mPpG"
+                                                        style="border-radius: 16px;">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM9.79442 10.9228C9.93307 11.0834 10.1299 11.1824 10.3415 11.1979C10.5531 11.2134 10.7622 11.1443 10.9228 11.0056C11.0834 10.8669 11.1824 10.6701 11.1979 10.4585C11.2134 10.2469 11.1443 10.0378 11.0056 9.87719C10.3576 9.12759 9.37362 8.60279 8.00002 8.60279C6.62722 8.60279 5.64242 9.12759 4.99442 9.87719C4.85575 10.0378 4.78662 10.2469 4.80209 10.4585C4.81762 10.6701 4.91662 10.8669 5.07722 11.0056C5.23782 11.1443 5.44695 11.2134 5.65855 11.1979C5.87015 11.1824 6.06695 11.0834 6.20562 10.9228C6.54082 10.5348 7.07842 10.2028 8.00002 10.2028C8.92162 10.2028 9.45922 10.5348 9.79442 10.9228ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                            fill="rgba(0,0,0,0.6)"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="theme-doc-markdown markdown">
+                                            <h1>What is Manta?</h1>
+                                            <p>Manta Network is the zk layer 1 blockchain with the fastest prover speed
+                                                and most decentralized trusted setup that brings programmable privacy to
+                                                web3. Its suite of core products and technologies, including zkNFTs and
+                                                MantaPay, offers user-friendly access to powerful ZK-enabled use cases.
+                                            </p>
+                                            <p>The project is created by a team of experienced founders from prestigious
+                                                institutions including Harvard, MIT, and Algorand. The team began its
+                                                research on Zero Knowledge Proof since 2019 during cross-border payment
+                                                research project under the MIT Digital Currency Initiative with the
+                                                Monetary Authority of Singapore. Manta Network has received investments
+                                                from many of the top web3 investment funds, including Binance Labs and
+                                                Polychain Capital, and has grown through participation in the best web3
+                                                accelerators, including Alliance DAO and Berkeley Blockchain Xcelerator.
+                                                Manta Network is poised to bring the next generation of web3 users and
+                                                usher in a new chapter of privacy-focused web3 applications.</p>
+                                            <p>Furthermore, Manta Network provides Dolphin Testnet, the testnet for
+                                                Manta Network that experiments with all new features coming to Manta
+                                                Network at a later production stage.</p>
+                                            <p>Manta offers two networks:</p>
+                                            <ul>
+                                                <li><a href="./index.html" target="_blank"
+                                                        rel="noopener noreferrer">Manta Network</a>: Manta’s primary
+                                                    production layer one network.</li>
+                                                <li><a href="https://calamari.network/" target="_blank"
+                                                        rel="noopener noreferrer">Calamari Network</a>: Manta Network’s
+                                                    canary network, which runs as a separate, independent layer one
+                                                    network.</li>
+                                            </ul>
+                                            <div class="landing-container">
+                                                    <div>
+                                                        <h1><svg xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 448 512" width="20px">
+                                                                <path
+                                                                    d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z">
+                                                                </path>
+                                                            </svg>For Users</h1>
+                                                        <ul class="">
+                                                            <li><a href="https://www.manta.network/" target="_blank"
+                                                                    rel="noopener noreferrer">Check out the main Manta
+                                                                    Network website</a>.</li>
+                                                            <li><a href="https://docs.manta.network/docs/guides/MantaPay"
+                                                                    target="_blank" rel="noopener noreferrer">Try
+                                                                    Private Payments on Dolphin Testnet</a>.</li>
+                                                            <li>Join Manta Community (<a
+                                                                    href="https://discord.gg/PRDBTChSsF" target="_blank"
+                                                                    rel="noopener noreferrer">discord</a>, <a
+                                                                    href="https://twitter.com/mantanetwork"
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer">twitter</a>, <a
+                                                                    href="https://t.me/mantanetworkofficial"
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer">telegram</a> or <a
+                                                                    href="http://eepurl.com/hnoWQv" target="_blank"
+                                                                    rel="noopener noreferrer">newsletter</a>).</li>
+                                                            <li>Calamari Network’s token is live! Check out&nbsp;<a
+                                                                    href="https://docs.manta.network/docs/calamari/Staking/Overview">KMA
+                                                                    Staking</a>.</li>
+                                                        </ul>
+                                                    </div>
+                                               
+                                                    <div>
+                                                        <h1><svg xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 512 512" width="20px">
+                                                                <path
+                                                                    d="M495.9 166.6C499.2 175.2 496.4 184.9 489.6 191.2L446.3 230.6C447.4 238.9 448 247.4 448 256C448 264.6 447.4 273.1 446.3 281.4L489.6 320.8C496.4 327.1 499.2 336.8 495.9 345.4C491.5 357.3 486.2 368.8 480.2 379.7L475.5 387.8C468.9 398.8 461.5 409.2 453.4 419.1C447.4 426.2 437.7 428.7 428.9 425.9L373.2 408.1C359.8 418.4 344.1 427 329.2 433.6L316.7 490.7C314.7 499.7 307.7 506.1 298.5 508.5C284.7 510.8 270.5 512 255.1 512C241.5 512 227.3 510.8 213.5 508.5C204.3 506.1 197.3 499.7 195.3 490.7L182.8 433.6C167 427 152.2 418.4 138.8 408.1L83.14 425.9C74.3 428.7 64.55 426.2 58.63 419.1C50.52 409.2 43.12 398.8 36.52 387.8L31.84 379.7C25.77 368.8 20.49 357.3 16.06 345.4C12.82 336.8 15.55 327.1 22.41 320.8L65.67 281.4C64.57 273.1 64 264.6 64 256C64 247.4 64.57 238.9 65.67 230.6L22.41 191.2C15.55 184.9 12.82 175.3 16.06 166.6C20.49 154.7 25.78 143.2 31.84 132.3L36.51 124.2C43.12 113.2 50.52 102.8 58.63 92.95C64.55 85.8 74.3 83.32 83.14 86.14L138.8 103.9C152.2 93.56 167 84.96 182.8 78.43L195.3 21.33C197.3 12.25 204.3 5.04 213.5 3.51C227.3 1.201 241.5 0 256 0C270.5 0 284.7 1.201 298.5 3.51C307.7 5.04 314.7 12.25 316.7 21.33L329.2 78.43C344.1 84.96 359.8 93.56 373.2 103.9L428.9 86.14C437.7 83.32 447.4 85.8 453.4 92.95C461.5 102.8 468.9 113.2 475.5 124.2L480.2 132.3C486.2 143.2 491.5 154.7 495.9 166.6V166.6zM256 336C300.2 336 336 300.2 336 255.1C336 211.8 300.2 175.1 256 175.1C211.8 175.1 176 211.8 176 255.1C176 300.2 211.8 336 256 336z">
+                                                                </path>
+                                                            </svg>For Potential Node Runners</h1>
+                                                        <ul class="">
+                                                            <li>Check out the &nbsp;<a
+                                                                    href="https://docs.manta.network/docs/calamari/Staking/Collation/Overview">Collation
+                                                                    Section</a>.</li>
+                                                        </ul>
+                                                    </div>
+                                                
+                                                    <div>
+                                                        <h1><svg xmlns="http://www.w3.org/2000/svg"
+                                                                viewBox="0 0 640 512" width="20px">
+                                                                <path
+                                                                    d="M414.8 40.79L286.8 488.8C281.9 505.8 264.2 515.6 247.2 510.8C230.2 505.9 220.4 488.2 225.2 471.2L353.2 23.21C358.1 6.216 375.8-3.624 392.8 1.232C409.8 6.087 419.6 23.8 414.8 40.79H414.8zM518.6 121.4L630.6 233.4C643.1 245.9 643.1 266.1 630.6 278.6L518.6 390.6C506.1 403.1 485.9 403.1 473.4 390.6C460.9 378.1 460.9 357.9 473.4 345.4L562.7 256L473.4 166.6C460.9 154.1 460.9 133.9 473.4 121.4C485.9 108.9 506.1 108.9 518.6 121.4V121.4zM166.6 166.6L77.25 256L166.6 345.4C179.1 357.9 179.1 378.1 166.6 390.6C154.1 403.1 133.9 403.1 121.4 390.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4L121.4 121.4C133.9 108.9 154.1 108.9 166.6 121.4C179.1 133.9 179.1 154.1 166.6 166.6V166.6z">
+                                                                </path>
+                                                            </svg>For Developers</h1>
+                                                        <ul class="">
+                                                            <li>Check the&nbsp;<a
+                                                                    href="https://docs.manta.network/docs/guides/XcmOnboarding">XCM
+                                                                    Onboarding Guide</a>&nbsp;to privatize your assets.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <footer class="theme-doc-footer docusaurus-mt-lg">
+                                            <div style="background-color:rgba(0,0,0,0.05)"
+                                                class="flex_iPdN spaceBetween_czR0 contentContainer_bBSs">
+                                                <div class="theme-doc-footer-edit-meta-row row flexColumn_Y6A0">
+                                                    <div class="col"><a
+                                                            href="https://github.com/Manta-Network/docs/edit/main/docs/Introduction.md"
+                                                            target="_blank" rel="noreferrer noopener"
+                                                            class="theme-edit-this-page"><svg fill="currentColor"
+                                                                height="20" width="20" viewBox="0 0 40 40"
+                                                                class="iconEdit_Z9Sw" aria-hidden="true">
+                                                                <g>
+                                                                    <path
+                                                                        d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg>Edit this page</a></div>
+                                                    <div class="col lastUpdated_VsjB"><span
+                                                            class="theme-last-updated">Last updated<!-- --> on <b><time
+                                                                    datetime="2023-03-09T02:48:02.000Z">Mar 9,
+                                                                    2023</time></b></span></div>
+                                                </div>
+                                                <div class="content_nnEp">
+                                                    <div class="innerContent_DO_S">
+                                                        <div class="font_eWG0" style="color: rgba(0, 0, 0, 0.6);">Was
+                                                            this page helpful?</div><svg width="16" height="16"
+                                                            viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                                            class="good_sVf5" style="border-radius: 16px;">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM6.2056 8.88C6.06695 8.7194 5.87017 8.6204 5.65855 8.60493C5.44693 8.5894 5.23781 8.65853 5.0772 8.7972C4.91659 8.93587 4.81763 9.13267 4.8021 9.34427C4.78657 9.55587 4.85575 9.765 4.9944 9.9256C5.6424 10.6752 6.6264 11.2 8 11.2C9.3728 11.2 10.3576 10.6752 11.0056 9.9256C11.1443 9.765 11.2134 9.55587 11.1979 9.34427C11.1824 9.13267 11.0834 8.93587 10.9228 8.7972C10.7622 8.65853 10.5531 8.5894 10.3415 8.60493C10.1299 8.6204 9.93307 8.7194 9.7944 8.88C9.4592 9.268 8.9216 9.6 8 9.6C7.0784 9.6 6.5408 9.268 6.2056 8.88ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                                fill="rgba(0,0,0,0.6)"></path>
+                                                        </svg><svg width="16" height="16" viewBox="0 0 16 16"
+                                                            xmlns="http://www.w3.org/2000/svg" class="normal_u3mR"
+                                                            style="border-radius: 16px;">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                                fill="rgba(0,0,0,0.6)"></path>
+                                                            <path
+                                                                d="M9.89457 9.60675H6.10544C5.66547 9.60675 5.30881 9.96342 5.30881 10.4034C5.30881 10.8434 5.66547 11.2 6.10544 11.2H9.89457C10.3345 11.2 10.6912 10.8434 10.6912 10.4034C10.6912 9.96342 10.3345 9.60675 9.89457 9.60675Z"
+                                                                fill="rgba(0,0,0,0.6)"></path>
+                                                        </svg><svg width="16" height="16" viewBox="0 0 16 16"
+                                                            xmlns="http://www.w3.org/2000/svg" class="bad_mPpG"
+                                                            style="border-radius: 16px;">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M1.6 8C1.6 6.30261 2.27429 4.67475 3.47452 3.47452C4.67475 2.27429 6.30261 1.6 8 1.6C9.69739 1.6 11.3253 2.27429 12.5255 3.47452C13.7257 4.67475 14.4 6.30261 14.4 8C14.4 9.69739 13.7257 11.3253 12.5255 12.5255C11.3253 13.7257 9.6974 14.4 8 14.4C6.3026 14.4 4.67475 13.7257 3.47452 12.5255C2.27429 11.3253 1.6 9.6974 1.6 8ZM8 0C3.5816 0 0 3.5816 0 8C0 12.4184 3.5816 16 8 16C12.4184 16 16 12.4184 16 8C16 3.5816 12.4184 0 8 0ZM9.79442 10.9228C9.93307 11.0834 10.1299 11.1824 10.3415 11.1979C10.5531 11.2134 10.7622 11.1443 10.9228 11.0056C11.0834 10.8669 11.1824 10.6701 11.1979 10.4585C11.2134 10.2469 11.1443 10.0378 11.0056 9.87719C10.3576 9.12759 9.37362 8.60279 8.00002 8.60279C6.62722 8.60279 5.64242 9.12759 4.99442 9.87719C4.85575 10.0378 4.78662 10.2469 4.80209 10.4585C4.81762 10.6701 4.91662 10.8669 5.07722 11.0056C5.23782 11.1443 5.44695 11.2134 5.65855 11.1979C5.87015 11.1824 6.06695 11.0834 6.20562 10.9228C6.54082 10.5348 7.07842 10.2028 8.00002 10.2028C8.92162 10.2028 9.45922 10.5348 9.79442 10.9228ZM4.8 6.4C4.8 6.18783 4.88429 5.98435 5.03431 5.83431C5.18435 5.68429 5.38783 5.6 5.6 5.6H5.608C5.82017 5.6 6.02365 5.68429 6.17369 5.83431C6.32371 5.98435 6.408 6.18783 6.408 6.4C6.408 6.61217 6.32371 6.81567 6.17369 6.96567C6.02365 7.11573 5.82017 7.2 5.608 7.2H5.6C5.38783 7.2 5.18435 7.11573 5.03431 6.96567C4.88429 6.81567 4.8 6.61217 4.8 6.4ZM10.4 5.6C10.1878 5.6 9.98433 5.68429 9.83433 5.83431C9.68427 5.98435 9.6 6.18783 9.6 6.4C9.6 6.61217 9.68427 6.81567 9.83433 6.96567C9.98433 7.11573 10.1878 7.2 10.4 7.2H10.408C10.6202 7.2 10.8237 7.11573 10.9737 6.96567C11.1237 6.81567 11.208 6.61217 11.208 6.4C11.208 6.18783 11.1237 5.98435 10.9737 5.83431C10.8237 5.68429 10.6202 5.6 10.408 5.6H10.4Z"
+                                                                fill="rgba(0,0,0,0.6)"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </footer>
+                                    </article>
+                                    <nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages navigation"><a
+                                            class="pagination-nav__link pagination-nav__link--next"
+                                            href="https://docs.manta.network/docs/concepts/ZKP">
+                                            <div class="pagination-nav__sublabel">Next</div>
+                                            <div class="pagination-nav__label">Zero-Knowledge Proofs</div>
+                                        </a></nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer class="footer footer--dark">
+            <div class="container container-fluid">
+                <div class="row footer__links">
+                    <div class="col footer__col">
+                        <div class="footer__title">Docs</div>
+                        <ul class="footer__items clean-list">
+                            <li class="footer__item"><a class="footer__link-item"
+                                    href="https://docs.manta.network/docs/Introduction">Introduction</a></li>
+                            <li class="footer__item"><a class="footer__link-item"
+                                    href="https://docs.manta.network/docs/calamari/Overview">Calamari</a></li>
+                        </ul>
+                    </div>
+                    <div class="col footer__col">
+                        <div class="footer__title">Community</div>
+                        <ul class="footer__items clean-list">
+                            <li class="footer__item"><a href="https://twitter.com/mantanetwork" target="_blank"
+                                    rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5"
+                                        height="13.5" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="iconExternalLink_nPIU">
+                                        <path fill="currentColor"
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                        </path>
+                                    </svg></a></li>
+                            <li class="footer__item"><a href="https://t.me/mantanetworkofficial" target="_blank"
+                                    rel="noopener noreferrer" class="footer__link-item">Telegram<svg width="13.5"
+                                        height="13.5" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="iconExternalLink_nPIU">
+                                        <path fill="currentColor"
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                        </path>
+                                    </svg></a></li>
+                            <li class="footer__item"><a href="https://discord.gg/MnaM4mqq" target="_blank"
+                                    rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5"
+                                        height="13.5" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="iconExternalLink_nPIU">
+                                        <path fill="currentColor"
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                        </path>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                    <div class="col footer__col">
+                        <div class="footer__title">More</div>
+                        <ul class="footer__items clean-list">
+                            <li class="footer__item"><a href="https://github.com/Manta-Network" target="_blank"
+                                    rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5"
+                                        height="13.5" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="iconExternalLink_nPIU">
+                                        <path fill="currentColor"
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                        </path>
+                                    </svg></a></li>
+                            <li class="footer__item"><a href="mailto:contact@manta.network" target="_blank"
+                                    rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5"
+                                        height="13.5" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="iconExternalLink_nPIU">
+                                        <path fill="currentColor"
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z">
+                                        </path>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom text--center">
+                    <div class="footer__copyright">Copyright © 2019-2023 Manta Network.</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./docs_files/runtime~main.872f9939.js"></script>
+    <script src="./docs_files/main.c18bdaf8.js"></script>
+
+</body>
+
+</html>
